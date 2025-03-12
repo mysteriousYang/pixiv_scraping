@@ -201,7 +201,7 @@ class pa():
         
         def run(self,response_data):
             temp = {}
-            #db = MySQLdb.connect("localhost","root","2003%!$ZXY","PIXIV",charset='utf8')
+            #db = MySQLdb.connect("ip_addr","user_name","user_pass","db_name",charset='utf8')
             temp_list = []
             #其实也可以分类但我懒得写
             #把那个抄一遍就行
@@ -261,7 +261,7 @@ class pa():
             temp = {}
             #count=0
             temp_list = []
-            #db = MySQLdb.connect("localhost","root","2003%!$ZXY","PIXIV",charset='utf8')
+            #db = MySQLdb.connect("ip_addr","user_name","user_pass","db_name",charset='utf8')
             #cursor = db.cursor()
             #读取分类用的json
             #嗯,很C风格的Python代码
@@ -354,7 +354,7 @@ class pa():
         
         def get_pictures(self,response,recommend_lim):
             self.temp_list = []
-            #self.db = MySQLdb.connect("localhost","root","2003%!$ZXY","PIXIV",charset='utf8')
+            #self.db = MySQLdb.connect("ip_addr","user_name","user_pass","db_name",charset='utf8')
             # self.cursor = self.db.cursor()
             #读取分类用的json
             #嗯,很C风格的Python代码
@@ -572,7 +572,7 @@ class pa():
         
         def run(self,response_data):
             temp = {}
-            #db = MySQLdb.connect("localhost","root","2003%!$ZXY","PIXIV",charset='utf8')
+            #db = MySQLdb.connect("ip_addr","user_name","user_pass","db_name",charset='utf8')
             temp_list = []
             #其实也可以分类但我懒得写
             #把那个抄一遍就行
